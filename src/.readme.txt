@@ -1,0 +1,23 @@
+To Create Database:
+-------------------
+
+0) Make sure connecting to approp server. (use toolbar within sql text editor window)
+
+1) Run CreateDatabase script in Database project
+
+2a) Run CreateStandardTables script in Database project
+or
+2b) Open PluralTouch.Database project and publish it to _this_ created database.
+(will do the very same as 2a) except if the 2a) CreateTables is NOT up to date.
+
+3) Run PopulateStandardTables
+
+4) Run SES.Projects.DirectoryTreeScan.Database.publish.xml (Created tables in TEST)
+
+5) Optionally use APEX to sync SES.Projects.DirectoryTreeScan.Test to SES.Projects.DirectoryTreeScan
+
+6) Run application, and log in with gabor@norway.norway
+
+7) Checklist:
+ - 
+
